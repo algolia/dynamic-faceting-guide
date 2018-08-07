@@ -10,8 +10,7 @@ import {
 import DynamicFacets from './DynamicFacets';
 
 const appId = process.env.REACT_APP_ALGOLIA_APP_ID || 'testingLDUTUO3DEU';
-const indexName =
-  process.env.REACT_APP_ALGOLIA_INDEX_NAME || 'dynamic_faceting';
+const indexName = process.env.REACT_APP_ALGOLIA_INDEX_NAME || 'dynamic_facets';
 const apiKey =
   process.env.REACT_APP_ALGOLIA_SEARCH_API_KEY ||
   '4c35535588627548301db034a61166c4';
