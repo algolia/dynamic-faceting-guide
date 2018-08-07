@@ -17,7 +17,7 @@ const apiKey =
 
 const App = () => (
   <InstantSearch appId={appId} apiKey={apiKey} indexName={indexName}>
-    <SearchBox />
+    <SearchBox defaultRefinement="iphone" />
     <div className="twoCol">
       <div>
         <DynamicFacets>
