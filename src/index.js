@@ -9,9 +9,12 @@ import {
 } from 'react-instantsearch-dom';
 import DynamicFacets from './DynamicFacets';
 
-const appId = process.env.REACT_APP_ALGOLIA_APP_ID;
-const indexName = process.env.REACT_APP_ALGOLIA_INDEX_NAME;
-const apiKey = process.env.REACT_APP_ALGOLIA_SEARCH_API_KEY;
+const appId = process.env.REACT_APP_ALGOLIA_APP_ID || 'testingLDUTUO3DEU';
+const indexName =
+  process.env.REACT_APP_ALGOLIA_INDEX_NAME || 'dynamic_faceting';
+const apiKey =
+  process.env.REACT_APP_ALGOLIA_SEARCH_API_KEY ||
+  '4c35535588627548301db034a61166c4';
 
 const App = () => (
   <InstantSearch appId={appId} apiKey={apiKey} indexName={indexName}>
