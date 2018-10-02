@@ -18,6 +18,9 @@ const apiKey =
 const App = () => (
   <InstantSearch appId={appId} apiKey={apiKey} indexName={indexName}>
     <SearchBox defaultRefinement="iphone" />
+    <p>
+      Query Rules set up: <q>iphone</q>, <q>smartphone</q>
+    </p>
     <div className="twoCol">
       <div>
         <DynamicFacets>
