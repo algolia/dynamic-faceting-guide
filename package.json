@@ -18,6 +18,6 @@
     "react-instantsearch": "^5.2.2"
   },
   "devDependencies": {
-    "react-scripts": "2.0.3"
+    "react-scripts": "3.4.3"
   }
 }
