@@ -1,5 +1,7 @@
 # Dynamic Faceting using Query Rules
 
+> Note: this guide is deprecated now that [Facet Display](https://www.algolia.com/doc/guides/building-search-ui/ui-and-ux-patterns/facet-display/react/) is a builtin feature of Algolia. You can still follow this guide, but make sure to check out DynamicWidgets first!
+
 Prerequisites: Algolia, react-instantsearch, Query Rules, facets
 
 ## The goal
